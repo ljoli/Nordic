@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#prepare the dev kit
+#Download and extract nrf5X SDK
+#
+
+#install command line tools
+# nrfprog
+
+mkdir tools
+mkdir -p tools/cmd
+tar xvf nRF5x-Command-Line-Tools_9_3_1_Linux-x86_64.tar tools/cmd/
+
+# nrfjprog --family nRF51 --eraseall
+# nrfjprog --family nRF51 --program [SOFTDEVICE_LOCATION]\s130_nrf51_2.0.1_softdevice.hex
+#
